@@ -173,7 +173,9 @@ function Login(props) {
                 variant="contained"
                 color="primary"
                 style={{ marginTop: "20px" }}
-                onClick={navigate(`${REGISTRATION_FORM}`)}
+                onClick={() => {
+                  navigate(`${REGISTRATION_FORM}`);
+                }}
               >
                 Register
               </Button>
